@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(31, 28, 34);
+}
+
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+header{
+    width: 100%;
+    height: 60px;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .nav-right-sec{
+    width: 250px;
+    height: auto;
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+    margin: 20px;
+}
+
+
+header nav .nav-right-sec .box-icon{
+    width: 24px;
+    height: 20px;
+    padding: 3px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: auto 0;
+}
+
+header nav .nav-right-sec .box-icon:hover{
+    background-color: rgba(173, 145, 189, 0.226);
+}
+
+nav .nav-right-sec .menu-icon{
+    background-image: url('../img/options_icon.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    margin: auto;
+}
+
+
+main{
+    margin-top: 50px;
+    text-align: center;
+}
+
+main .main-logo{
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+main .main-logo .logo{
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    width: 450px;
+    margin: 0 auto;
+}
+
+main .main-logo img {
+    padding-right: 15px;
+}
+
+
+main .main-logo .circle{
+    margin: auto 0;
+    width: 115px;
+    height: 115px;
+}
+
+main .main-logo .firefox{
+    margin: auto 0;
+    width: 180px;
+    height: 50px;
+}
+
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+
+main .main-input-container{
+    width: 550px;
+    border-radius: 8px;
+    background-color: rgb(58, 48, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 485px;
+    height: 45px;
+    border: none;
+    outline: none;
+    background:rgb(58, 48, 65);
+}
+
+input::placeholder{
+    color: #fff;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+
+}
+
+main .main-input-container:hover{
+    box-shadow: 1.3px 1.3px 1.3px 1.3px rgb(84, 178, 255);
+    border-color: rgb(84, 178, 255);
+}
+
+main .main-input .google-item{
+    background-image: url('../img/googleLogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 22px;
+    height: 22px;
+}
+
+main .main-boxes{
+    width: 530px;
+    margin: 0 auto;
+}
+
+main .main-boxes div{
+    width: 120px;
+    display: inline-block;
+    margin: 10px 15px;
+    border-radius: 8px;
+    padding: 10px 8px;
+}
+
+main .main-boxes div:hover{
+    background-color: rgba(173, 145, 189, 0.055);
+}
+
+main .main-boxes button{
+    border-radius: 8px;
+    border: transparent;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.15);
+    background-color: rgb(58, 48, 65);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    height: 80px;
+    width: 80px;
+    cursor: pointer;
+    font-size: 32px;
+    font-weight: 200;
+    text-transform: uppercase;
+}
+
+p{
+    color:aliceblue;
+}
+
+#dh{
+    background-image: url('../img/logodh.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+}
+
+#git{
+    background-image: url('../img/githublogo.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+}
+
+#link{
+    background-image: url('../img/linkedin.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 50px;
+}
